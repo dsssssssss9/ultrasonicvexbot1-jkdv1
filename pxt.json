@@ -1,0 +1,33 @@
+{
+    "name": "UltraSonicVEXbot1",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "Croco-Kit": "github:lzty634158/croco-kit#2a181955412e937a647f0f121c4744bbb7fc23b0",
+        "SuperBit": "github:lzty634158/superbit#0a0d6cd2c18804f6b56e944d0c7ff7bd91473ec8",
+        "OmniBit": "github:lzty634158/omnibit#21c29d255327798ea59b4e2a870ae219d3901af6",
+        "GHBit": "github:lzty634158/ghbit#30091afa98a5c58556b996dec246882bf8bd4fc1",
+        "microphone": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v2.1.28",
+        "tag": "v2.1.28",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/5f2d4395214120979636f8ba9f87264cc662d1a9",
+        "target": "5.0.12",
+        "pxt": "5.28.24",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
